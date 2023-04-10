@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import css from './Statistics.module.css';
 
 const Statistics = ({ title, children }) => {
   return (
-    <section className="statistics">
-      <h2 className="title">{title && title}</h2>
+    <section className={css.stats}>
+      <h2 className={css.title}>{title && title}</h2>
       {children}
     </section>
   );

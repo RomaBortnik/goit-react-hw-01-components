@@ -1,0 +1,12 @@
+.stats {
+  width: 400px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+.title {
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 0;
+}

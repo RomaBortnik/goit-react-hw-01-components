@@ -1,0 +1,28 @@
+.friendListItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  gap: 12px;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.friendListItem:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.friendListStatus {
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.friendListName {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.active {
+  background-color: green;
+}
